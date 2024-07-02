@@ -54,3 +54,13 @@ p {
     width: 100%;
 }
 
+.copyright {
+    background: var(--arsenic);
+    color: var(--winter);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--segoe);
+    font-size: var(--medium);
+}
+
