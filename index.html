@@ -1,22 +1,63 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>About Me</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/styles/index.css">
-    </head>
-    <body>
-        <script src="" async defer></script>
-        <div class="user-info">
-            <h1 class="utc_time" data-testid="currentTimeUTC"></h1>
-            <h1 class="utc_date" data-testid="currentDay"></h1>
-            <img src="/assets/ebuka_simon.png" alt="user_image" data-testid="slackProfilePicture">
-            <h1 class="slack_name" data-testid="slackDisplayName">Ebuka Simon</h1>
-            <h1 class="slack_email" data-testid="slackEmail">danebuka20@gmail.com</h1>
-        </div>
-        <div class="user-goals"></div>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>About Me</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles/index.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="user-info">
+        <h1 id="utc_time" data-testid="currentTimeUTC"></h1>
+        <h1 id="utc_date" data-testid="currentDay"></h1>
+        <img
+          src="/assets/ebuka_simon.png"
+          alt="user_image"
+          data-testid="slackProfilePicture"
+        />
+        <h1 class="slack_name" data-testid="slackDisplayName">Ebuka Simon</h1>
+        <h1 class="slack_email" data-testid="slackEmail">
+          danebuka20@gmail.com
+        </h1>
+      </div>
+      <div class="user-goals">
+        <p class="goals">
+          Hello, welcome to my page. I am a
+          <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink"
+            >frontend developer</a
+          >
+          currently in the
+          <a href="http://hng.tech/learn" data-testid="hngLink">hng</a> program.
+          These are my goals in the tech space for the next two years:
+        </p>
+        <ul>
+          <li>
+            To become proficient in basic frontend technologies such as html,
+            css and javascript
+          </li>
+          <li>
+            Learn how to use libraries and frameworks like React and NextJs
+          </li>
+          <li>Get a paid internship in the frontend role</li>
+          <li>
+            Get a job as a junior frontend developer os solidify myself as a
+            freelancer
+          </li>
+          <li>Learn Backend technologies</li>
+          <li>Become a fullstack developer</li>
+          <li>Migrate to a senior role</li>
+        </ul>
+        <p>
+          My main objective here is to incorporate accessibility,
+          <a href="http://keyword.dog" data-testid="keywordLink"
+            >responsiveness, </a
+          >great UI/UX into my work
+        </p>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
 </html>

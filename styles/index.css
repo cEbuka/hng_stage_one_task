@@ -1,6 +1,10 @@
 :root {
     --arsenic: #3b444b;
-    --winter: #FBF1E7
+    --winter: #FBF1E7;
+    --small: 0.8em;
+    --medium: 2em;
+    --segoe:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --link-color: #f7a120;
 }
 
 * {
@@ -9,11 +13,44 @@
     padding: 0;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    background: var(--arsenic);
+}
+
 .user-info {
     display: flex;
     flex-flow: column;
     align-items: center;
+    color: var(--winter);
+    font-size: var(--small);
+    font-family: var(--segoe);
+}
+
+.user-goals {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
     background: var(--arsenic);
-    color: var(--winter)
+    color: var(--winter);
+    font-size: var(--medium);
+    font-family: var(--segoe);
+    padding: 20px;
+}
+
+ul {
+    padding: 20px;
+    list-style-position: inside;
+}
+
+a:link {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+p {
+    width: 100%;
 }
 
